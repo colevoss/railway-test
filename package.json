@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js",
     "up": "docker-compose up",
     "up:build": "docker-compose up --build",
     "down": "docker-compose down",
